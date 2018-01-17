@@ -1,0 +1,16 @@
+
+/**
+ create databse
+*/
+create databse  chatDemo
+/**
+ create table
+*/
+
+CREATE TABLE IF NOT EXISTS `chatDemo`.`chat` (
+`user` VARCHAR(255) NULL DEFAULT NULL COMMENT '',
+`message` VARCHAR(255) NULL DEFAULT NULL COMMENT '',
+`id` INT(10) UNSIGNED NOT NULL AUTO_INCREMENT COMMENT '',
+`createdAt` DATETIME NULL DEFAULT NULL COMMENT '',
+`updatedAt` DATETIME NULL DEFAULT NULL COMMENT '',
+PRIMARY KEY (`id`) COMMENT '')
