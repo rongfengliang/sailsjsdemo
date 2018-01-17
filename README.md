@@ -3,6 +3,7 @@
 a [Sails](http://sailsjs.org) application
 ## init project
 ```bash
+cd appdemo
 yarn
 ```
 ## create database and table
